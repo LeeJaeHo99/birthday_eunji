@@ -18,7 +18,7 @@
     font-family: 'Noto Sans KR';
     font-weight: 500;
     font-size: 20px;
-    display: none;
+    // display: none;
 
     .question-text{
         margin-bottom: 36px;
@@ -64,5 +64,9 @@
     }
 }
 .question.active{
-    display: block;
+    // display: block;
 }// question
+
+.dn{
+    display: none;
+}

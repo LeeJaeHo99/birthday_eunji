@@ -72,7 +72,6 @@ header {
   font-family: "Noto Sans KR";
   font-weight: 500;
   font-size: 20px;
-  display: none;
 }
 .question .question-text {
   margin-bottom: 36px;
@@ -116,6 +115,6 @@ header {
   background-color: #5f87c4;
 }
 
-.question.active {
-  display: block;
+.dn {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
