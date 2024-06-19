@@ -1,0 +1,31 @@
+header{
+    font-family: 'Song Myung', serif;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.header-bot{
+    padding: 0 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .time{
+        border: 1px solid #000;
+        padding: 7px;
+        border-radius: 16px;
+    }
+    .subject{
+        font-size: 32px;
+    }
+    .num{
+        border: 1px solid #000;
+        padding: 7px;
+        border-radius: 7px;
+    }
+}

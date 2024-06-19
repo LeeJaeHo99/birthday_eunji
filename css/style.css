@@ -1,1 +1,121 @@
-/*# sourceMappingURL=style.css.map */
+.inner {
+  max-width: 350px;
+  margin: 15px auto;
+}
+
+.to-from {
+  font-family: "Noto Sans KR";
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.to {
+  margin-bottom: 16px;
+}
+
+.from {
+  text-align: right;
+  margin-top: 16px;
+}
+
+body {
+  background-color: #b3b3b3;
+}
+
+header {
+  font-family: "Song Myung", serif;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header-bot {
+  padding: 0 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-bot .time {
+  border: 1px solid #000;
+  padding: 7px;
+  border-radius: 16px;
+}
+.header-bot .subject {
+  font-size: 32px;
+}
+.header-bot .num {
+  border: 1px solid #000;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.warnimg {
+  width: 85%;
+  margin: 0 auto 50px;
+  border: 2px solid #000;
+  padding: 10px;
+  font-family: "Noto Sans KR";
+  font-weight: 900;
+}
+.warnimg .warnimg-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: rgb(197, 0, 0);
+}
+
+.question {
+  font-family: "Noto Sans KR";
+  font-weight: 500;
+  font-size: 20px;
+  display: none;
+}
+.question .question-text {
+  margin-bottom: 36px;
+}
+.question .question-score {
+  font-size: 16px;
+  color: #4b4b4b;
+}
+.question .question-img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.question .question-img img {
+  border-radius: 12px;
+  width: 60%;
+}
+.question .question-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.question .question-btn .answer-btn {
+  color: #fff;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-family: "Noto Sans KR";
+  font-size: 24px;
+  font-weight: 700;
+  border: 1px solid #9b9b9b;
+  border-radius: 24px;
+}
+.question .question-btn .btn--red {
+  background-color: rgb(180, 66, 83);
+}
+.question .question-btn .btn--blue {
+  background-color: #5f87c4;
+}
+
+.question.active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
