@@ -22,6 +22,114 @@ body {
   background-color: #b3b3b3;
 }
 
+.q-2 .question-btn {
+  flex-direction: column;
+}
+.q-2 .question-btn button {
+  width: 70% !important;
+  height: 200px;
+}
+.q-2 .question-btn button:first-child {
+  background: url(../images/casemiro-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.q-2 .question-btn button:last-child {
+  background: url(../images/fernandes-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.q-3 .question-btn {
+  flex-direction: column;
+}
+.q-3 .question-btn button {
+  width: 70% !important;
+  height: 200px;
+}
+.q-3 .question-btn button:first-child {
+  background: url(../images/mainoo-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.q-3 .question-btn button:last-child {
+  background: url(../images/garnacho-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.q-4 .question-btn {
+  flex-direction: column;
+}
+.q-4 .question-btn button {
+  width: 70% !important;
+  height: 200px;
+}
+.q-4 .question-btn button:first-child {
+  background: url(../images/maguire-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.q-4 .question-btn button:last-child {
+  background: url(../images/mcTominay-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.q-7 .question-btn {
+  flex-direction: column;
+}
+.q-7 .question-btn button {
+  width: 70% !important;
+  height: 200px;
+}
+.q-7 .question-btn button:first-child {
+  background: url(../images/mcTominay-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.q-7 .question-btn button:last-child {
+  background: url(../images/rashford-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.q-8 .question-btn {
+  flex-direction: column;
+}
+.q-8 .question-btn button {
+  width: 70% !important;
+  height: 200px;
+}
+.q-8 .question-btn button:first-child {
+  background: url(../images/shaw-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.q-8 .question-btn button:last-child {
+  background: url(../images/dalot-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.q-10 .question-btn {
+  flex-direction: column;
+}
+.q-10 .question-btn button {
+  width: 70% !important;
+  height: 200px;
+}
+.q-10 .question-btn button:first-child {
+  background: url(../images/shaw-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.q-10 .question-btn button:last-child {
+  background: url(../images/dalot-btn.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.scoreing {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b3b3b3;
+  font-family: "Song Myung", serif;
+  font-size: 48px;
+}
+
 header {
   font-family: "Song Myung", serif;
   margin-bottom: 30px;
@@ -56,7 +164,7 @@ header {
 .warnimg {
   width: 85%;
   margin: 0 auto 50px;
-  border: 2px solid #000;
+  border: 2px dotted #414141;
   padding: 10px;
   font-family: "Noto Sans KR";
   font-weight: 900;
@@ -70,15 +178,21 @@ header {
 
 .question {
   font-family: "Noto Sans KR";
+  font-family: "Song Myung", serif;
   font-weight: 500;
   font-size: 20px;
 }
-.question .question-text {
+.question .question-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
   margin-bottom: 36px;
 }
-.question .question-score {
-  font-size: 16px;
+.question .question-title .question-score {
+  font-size: 14px;
   color: #4b4b4b;
+  margin-top: 3px;
 }
 .question .question-img {
   width: 100%;
@@ -99,7 +213,6 @@ header {
 .question .question-btn .answer-btn {
   color: #fff;
   width: 150px;
-  height: 60px;
   text-align: center;
   line-height: 60px;
   font-family: "Noto Sans KR";
@@ -117,4 +230,30 @@ header {
 
 .dn {
   display: none;
+}
+
+.score-see {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b3b3b3;
+  font-family: "Song Myung", serif;
+  display: none;
+}
+.score-see div {
+  font-size: 32px;
+}
+.score-see span {
+  color: rgba(255, 0, 0, 0.4392156863);
+}
+.score-see img {
+  width: 80%;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

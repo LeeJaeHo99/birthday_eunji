@@ -19,3 +19,144 @@
 body{
     background-color: #b3b3b3;
 }
+
+.q-2{
+    .question-btn{
+        flex-direction: column;
+
+        button{
+            width: 70% !important;
+            height: 200px;
+
+            &:first-child{
+                background: url(../images/casemiro-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/fernandes-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+
+    }
+}
+
+
+.q-3{
+    .question-btn{
+        flex-direction: column;
+
+        button{
+            width: 70% !important;
+            height: 200px;
+
+            &:first-child{
+                background: url(../images/mainoo-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/garnacho-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+
+    }
+}
+
+
+.q-4{
+    .question-btn{
+        flex-direction: column;
+
+        button{
+            width: 70% !important;
+            height: 200px;
+
+            &:first-child{
+                background: url(../images/maguire-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/mcTominay-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+
+    }
+}
+
+
+.q-7{
+    .question-btn{
+        flex-direction: column;
+
+        button{
+            width: 70% !important;
+            height: 200px;
+
+            &:first-child{
+                background: url(../images/mcTominay-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/rashford-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+
+    }
+}
+
+
+.q-8{
+    .question-btn{
+        flex-direction: column;
+
+        button{
+            width: 70% !important;
+            height: 200px;
+
+            &:first-child{
+                background: url(../images/shaw-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/dalot-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+
+.q-10{
+    .question-btn{
+        flex-direction: column;
+
+        button{
+            width: 70% !important;
+            height: 200px;
+
+            &:first-child{
+                background: url(../images/shaw-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:last-child{
+                background: url(../images/dalot-btn.jpg) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+.scoreing{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #b3b3b3;
+    font-family: "Song Myung", serif;
+    font-size: 48px;
+}
