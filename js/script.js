@@ -73,7 +73,7 @@ $('.last-btn').click(() => {
         $('.scoreing').css('display', 'none');
         $('.score-see').css('display', 'flex');
         if(score >= 0 && score <= 3){
-            $('.score-see').append(`<div>언니 <span>${score}점</span>이야...</div><img src="../images/0.jpg" alt="">`)
+            $('.score-see').append(`<div>언니 <span>${score}점</span>이야...</div><img src="./images/0.jpg" alt="">`)
         }else if(score >= 4 && score <= 6){
             $('.score-see').append(`<div>언니 <span>${score}점</span>이야<br>그래도 좀 공부했네!</div><img src="../images/4.jpg" alt="">`)
         }else if(score >= 7 && score <= 9){
@@ -91,5 +91,5 @@ const load = bodymovin.loadAnimation({
     renderer : 'svg',
     loop : true,
     autoplay : true,
-    path : '/images/load.json',
+    path : '../images/load.json',
 });
