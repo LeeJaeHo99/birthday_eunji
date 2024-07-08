@@ -63,7 +63,7 @@ for(let i = 1; i < qLength; i++){
 
 let score = 0;
 $('.correct').click(function(){
-    score  += 1;
+    score  += 10;
     console.log(score);
 })
 
@@ -72,14 +72,14 @@ $('.last-btn').click(() => {
     setTimeout(function(){
         $('.scoreing').css('display', 'none');
         $('.score-see').css('display', 'flex');
-        if(score >= 0 && score <= 3){
+        if(score >= 0 && score <= 30){
             $('.score-see').append(`<div>언니 <span>${score}점</span>이야...</div><img src="./images/0.jpg" alt="">`)
-        }else if(score >= 4 && score <= 6){
-            $('.score-see').append(`<div>언니 <span>${score}점</span>이야<br>그래도 좀 공부했네!</div><img src="../images/4.jpg" alt="">`)
-        }else if(score >= 7 && score <= 9){
-            $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>완전 멋져 짱이다!!</div><img src="../images/7.jpg" alt="">`)
+        }else if(score >= 40 && score <= 60){
+            $('.score-see').append(`<div>언니 <span>${score}점</span>이야<br>그래도 좀 공부했네!</div><img src="./images/4.jpg" alt="">`)
+        }else if(score >= 70 && score <= 90){
+            $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>완전 멋져 짱이다!!</div><img src="./images/7.jpg" alt="">`)
         }else{
-            $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>언니가 세상에서 제일 좋아!!<br>사랑해 히히</div><img src="/..images/10.jpg" alt="">`)
+            $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>언니가 세상에서 제일 좋아!!<br>사랑해 히히</div><img src=".images/10.jpg" alt="">`)
         }
     }, 3000)
 })
@@ -91,5 +91,5 @@ const load = bodymovin.loadAnimation({
     renderer : 'svg',
     loop : true,
     autoplay : true,
-    path : '../images/load.json',
+    path : './images/load.json',
 });
