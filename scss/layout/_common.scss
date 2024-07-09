@@ -204,8 +204,12 @@ body{
         justify-content: space-between;
         gap: 20px;
         padding-bottom: 32px;
+        font-family: 'Noto Sans KR';
 
         > div:first-child{
+            display: flex;
+            align-items: center;
+            gap: 10px;
             width: 35%;
             padding: 5px;
             border: 1px solid;
@@ -216,6 +220,9 @@ body{
                 border-right: 1px solid;}
         }
         > div:last-child{
+            display: flex;
+            align-items: center;
+            gap: 10px;
             width: 52%;
             padding: 5px;
             border: 1px solid;
