@@ -79,7 +79,7 @@ $('.last-btn').click(() => {
         }else if(score >= 70 && score <= 90){
             $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>완전 멋져 짱이다!!</div><img src="./images/7.jpg" alt="">`)
         }else{
-            $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>언니가 세상에서 제일 좋아!!<br>사랑해 히히</div><img src=".images/10.jpg" alt="">`)
+            $('.score-see').append(`<div>언니 <span>${score}점</span>이야!!<br>언니가 세상에서 제일 좋아!!<br>사랑해 히히</div><img src="./images/10.jpg" alt="">`)
         }
     }, 3000)
 })
@@ -93,3 +93,9 @@ const load = bodymovin.loadAnimation({
     autoplay : true,
     path : './images/load.json',
 });
+
+
+
+setTimeout(() => {
+    $('.book-front').fadeOut();
+}, 3000);

@@ -20,11 +20,9 @@ body{
     background-color: #b3b3b3;
 }
 
-.q-1{
-    .btn-blue{
-        font-size: 21px;
+    .fs21{
+        font-size: 22px !important;
     }
-}
 
 .q-2{
     .question-btn{
@@ -165,4 +163,109 @@ body{
     background-color: #b3b3b3;
     font-family: "Song Myung", serif;
     font-size: 48px;
+}
+
+
+.book-front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999999999999999;
+    height: 100%;
+    padding: 40px;
+    background-color: #b3b3b3;
+
+    > div:first-child{
+        font-family: "Song Myung", serif;
+        font-size: 18px;
+        width: 84px;
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    > div:nth-child(2){
+        font-family: 'Noto Sans KR';
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    > div:nth-child(3){
+        font-family: "Song Myung", serif;
+        font-size: 36px;
+        text-align: center;
+        margin: 30px auto;
+    }
+    > div:nth-child(4){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding-bottom: 32px;
+
+        > div:first-child{
+            width: 35%;
+            padding: 5px;
+            border: 1px solid;
+
+            >div:first-child{
+                width: 40%;
+                height: 100%;
+                border-right: 1px solid;}
+        }
+        > div:last-child{
+            width: 52%;
+            padding: 5px;
+            border: 1px solid;
+
+            > div:first-child{
+                width: 45%;
+                height: 100%;
+                border-right: 1px solid;
+            }
+        }
+    }
+    > div:nth-child(5){
+        padding: 20px;
+        border: 1px solid;
+        font-family: 'Song Myung', serif;
+        line-height: 1.5;
+
+        > div{
+            position: relative;
+            padding-left: 20px;
+
+            &:before{
+                content: '';
+                position: absolute;
+                top: 13px;
+                left: 2px;
+                transform: translateY(-50%);
+                width: 5px;
+                height: 5px;
+                background-color: #000;
+                border-radius: 50%;
+            }
+        }
+    }
+    > div:nth-child(6){
+        width: 100%;
+        font-family: 'Noto Sans KR';
+        font-size: 14px;
+        text-align: center;
+        margin: 45px auto;
+        padding: 6px;
+        border: 1px solid;
+        background-color: #979595;
+    }
+    > div:nth-child(7){
+        font-family: 'Noto Sans KR';
+        font-size: 28px;
+        text-align: center;
+
+    }
+    // > div:nth-child(){}
+    // > div:nth-child(){}
 }
